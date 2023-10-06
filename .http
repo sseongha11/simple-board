@@ -1,0 +1,34 @@
+
+# Find All Articles
+GET http://localhost:3000/board
+
+###
+
+# Final an Article
+GET http://localhost:3000/board/11
+
+###
+
+# Create an Article
+POST http://localhost:3000/board/
+Content-Type: application/json
+
+{
+    "name": "Recommendation",
+    "contents": "contents 11"
+}
+
+###
+
+# Update an Article
+PUT http://localhost:3000/board/11
+Content-Type: application/json
+
+{
+    "name": "Seongha"
+}
+
+###
+
+# Delete an Article
+DELETE  http://localhost:3000/board/1
