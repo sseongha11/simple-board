@@ -14,14 +14,14 @@ POST http://localhost:3000/board/
 Content-Type: application/json
 
 {
-    "name": "Recommendation",
+    "name": "F",
     "contents": "contents 11"
 }
 
 ###
 
 # Update an Article
-PUT http://localhost:3000/board/11
+PUT http://localhost:3000/board/1
 Content-Type: application/json
 
 {
@@ -32,3 +32,6 @@ Content-Type: application/json
 
 # Delete an Article
 DELETE  http://localhost:3000/board/1
+
+###
+GET http://localhost:3000
